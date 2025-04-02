@@ -28,13 +28,10 @@ status: {}
 apiVersion: v1
 kind: Service
 metadata:
-  creationTimestamp: "2025-03-31T10:16:36Z"
   labels:
     app: dep-svc
   name: dep-svc
   namespace: basant
-  resourceVersion: "2824"
-  uid: 406d2c6f-50a7-4d6e-ab23-e03f779c0712
 spec:
   clusterIP: 10.102.50.246
   clusterIPs:
