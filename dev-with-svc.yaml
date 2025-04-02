@@ -30,7 +30,7 @@ kind: Service
 metadata:
   labels:
     app: dep-svc
-  name: dep-svc
+  name: dep-svc-latest
   namespace: basant
 spec:
   clusterIP: 10.102.50.246
