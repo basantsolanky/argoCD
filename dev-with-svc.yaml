@@ -5,6 +5,7 @@ metadata:
   labels:
     app: dep-svc
   name: dep-svc
+  namespace: basant
 spec:
   replicas: 2
   selector:
@@ -31,7 +32,7 @@ metadata:
   labels:
     app: dep-svc
   name: dep-svc
-  namespace: default
+  namespace: basant
   resourceVersion: "2824"
   uid: 406d2c6f-50a7-4d6e-ab23-e03f779c0712
 spec:
